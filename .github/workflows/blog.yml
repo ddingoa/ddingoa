@@ -1,0 +1,24 @@
+name: Update Blog Posts
+
+on:
+  schedule:
+    - cron: "0 19 * * *"   # 매일 04:00 KST
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull latest posts from Tistory RSS
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://ddinggo.tistory.com/rss"
+          max_post_count: 5
+          template: "- [$title]($url) <sub>$newline`$date`</sub>$newline"
+          date_format: "yyyy-MM-dd"
+          commit_message: "chore: update latest blog posts"

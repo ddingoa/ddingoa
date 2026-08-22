@@ -195,7 +195,7 @@ timeline
 
   <br/><br/>
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ddingoa&theme=material-palenight&hide_border=true&background=20232a&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" width="58%" />
+  <img src="https://streak-stats.demolab.com/?user=ddingoa&theme=material-palenight&hide_border=true&background=20232a&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" width="58%" />
 
   <br/><br/>
 
