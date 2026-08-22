@@ -224,7 +224,16 @@ TypeScript    █░░░░░░░░░░░░░░░░░░░░░
 
 ## ✍️ Latest Posts
 
-<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:START -->- [공공 데이터 포털을 이용한 사업자 등록 정보 api 활용](https://ddinggo.tistory.com/47) <sub>
+`2024-02-02`</sub>
+- [Selenium 이란? _간단 설명](https://ddinggo.tistory.com/46) <sub>
+`2023-43-13`</sub>
+- [Jira _ 노션 프로젝트 관리](https://ddinggo.tistory.com/45) <sub>
+`2023-40-04`</sub>
+- [프리랜서_v1](https://ddinggo.tistory.com/44) <sub>
+`2023-30-04`</sub>
+- [프리랜서 3.3%](https://ddinggo.tistory.com/43) <sub>
+`2023-22-04`</sub>
 <!-- BLOG-POST-LIST:END -->
 
 <div align="right"><a href="https://ddinggo.tistory.com">→ 블로그 전체 보기</a></div>
