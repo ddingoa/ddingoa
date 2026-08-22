@@ -46,18 +46,8 @@
 ## 🔭 Currently
 
 ```yaml
-company : eMoldino
 role    : Application Lead (Backend)
-product : MMS — Mold Management System (Global B2B SaaS)
-clients : Zebra · Dyson · P&G · Honeywell · Eaton
 stack   : Java · Spring Boot · MySQL · AWS (EC2/S3/SES)
-
-doing   :
-  - 금형 센서(Shot·온도·가속도·위치) 실시간 수집·분석 파이프라인 설계
-  - 신규 기능 아키텍처 설계 및 코드 리뷰
-  - 글로벌 고객사 맞춤 알림 시스템 구축
-  - 배포 · 운영 프로세스 개선
-
 learning: [ MSA, Kafka, Kubernetes, LLM Application ]
 ```
 
