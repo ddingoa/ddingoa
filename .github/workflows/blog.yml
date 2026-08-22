@@ -19,6 +19,9 @@ jobs:
         with:
           feed_list: "https://ddinggo.tistory.com/rss"
           max_post_count: 5
+          # 티스토리는 Accept: application/rss+xml 을 406으로 거부한다. */* 만 허용.
+          accept_header: "rss:*/*"
+          user_agent: "rss:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
           template: "- [$title]($url) <sub>$newline`$date`</sub>$newline"
           date_format: "yyyy-MM-dd"
           commit_message: "chore: update latest blog posts"
