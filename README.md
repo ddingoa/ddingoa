@@ -183,16 +183,51 @@ timeline
 
 ---
 
-## 📊 GitHub Stats
+## 🌱 Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ddingoa&show_icons=true&theme=material-palenight&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=ffffff&title_color=58A6FF&count_private=true&include_all_commits=true" width="55%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ddingoa&layout=donut&theme=material-palenight&hide_border=true&bg_color=20232a&text_color=ffffff&title_color=58A6FF&count_private=true&langs_count=8" width="39%" />
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ddingoa/ddingoa/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ddingoa/ddingoa/output/github-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/ddingoa/ddingoa/output/github-snake.svg" width="100%" />
+  </picture>
+
   <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ddingoa&theme=material-palenight&hide_border=true&background=20232a&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" width="60%" />
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ddingoa&theme=material-palenight&hide_border=true&background=20232a&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" width="58%" />
+
   <br/><br/>
+
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ddingoa&theme=github-compact&bg_color=20232a&hide_border=true&line=58A6FF&color=ffffff&point=58A6FF&area=true" width="95%" />
+
 </div>
+
+<br/>
+
+### 🧮 Language Mix
+
+```text
+Java          ████████████████████░░░░░  42.2 %
+Vue           ███████████████░░░░░░░░░░  31.1 %
+Dart          ██████░░░░░░░░░░░░░░░░░░░  13.5 %
+JavaScript    ███░░░░░░░░░░░░░░░░░░░░░░   6.9 %
+HTML          ██░░░░░░░░░░░░░░░░░░░░░░░   3.8 %
+TypeScript    █░░░░░░░░░░░░░░░░░░░░░░░░   2.3 %
+```
+
+> 개인 저장소 21개 실측 기준 · 빌드 산출물 제외
+
+<br/>
+
+---
+
+## ✍️ Latest Posts
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+<div align="right"><a href="https://ddinggo.tistory.com">→ 블로그 전체 보기</a></div>
 
 <br/>
 
