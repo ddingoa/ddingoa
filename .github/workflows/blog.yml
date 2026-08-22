@@ -22,6 +22,9 @@ jobs:
           # 티스토리는 Accept: application/rss+xml 을 406으로 거부한다. */* 만 허용.
           accept_header: "*/*"
           user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
-          template: "- [$title]($url) <sub>$newline`$date`</sub>$newline"
-          date_format: "yyyy-MM-dd"
+          # HTML 태그를 쓰지 않는다. <sub> 안에 줄바꿈이 들어가면 태그가
+          # 닫히지 않아 이후 항목이 중첩되면서 글자가 계속 작아진다.
+          template: "- `$date`  [$title]($url)$newline"
+          # dateformat 패키지 기준: 소문자 mm = 월, 대문자 MM = 분
+          date_format: "yyyy-mm-dd"
           commit_message: "chore: update latest blog posts"
